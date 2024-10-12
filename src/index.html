@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Day-15 resoruce and Todo app</title>
+</head>
+<body>
+    <div class="w-full text-xl h-14 bg-blue-600 text-white text-center pt-2">
+        Sometimes our stop-doing list needs to be bigger than our to-do list
+    </div>
+
+    <div class="w-[400px] mx-auto mt-20 ">
+        <p class=" text-xl font-bold">Manage your tasks <span class="text-gray-500">@mayank</span></p>
+        <p class="text-sm text-gray-800 font-semibold">Add your tasks and start organizing them quickly.</p>
+    </div>
+
+
+
+
+    <!-- tasks added for example -->
+
+    <div class="w-[400px] border rounded-lg bg-blue-100 border-blue-400 mx-auto mt-8  p-2 hover:shadow-xl  hover:cursor-pointer">
+        <p class="font-semibold">Learn web development css</p>
+        <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="flex gap-5 text-gray-500 mt-2">
+            <button class="flex items-center gap-2 hover:text-purple-900 text-sm "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+              </svg>Mark as done</button>
+            <button class="flex items-center gap-2 hover:text-red-800 text-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+              </svg> Delete</button>
+        </div>
+
+    </div>
+
+    <div class="w-[400px] border rounded-lg bg-blue-100 border-blue-400 mx-auto mt-4  p-2 hover:shadow-xl  hover:cursor-pointer">
+        <p class="font-semibold">Learn Canva</p>
+        <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="flex gap-5 text-gray-500 mt-2">
+            <button class="flex items-center gap-2  hover:text-purple-900 text-sm "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+              </svg>Mark as done</button>
+            <button class="flex items-center gap-2 hover:text-red-800 text-sm "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+              </svg> Delete</button>
+
+        </div>
+
+    </div>
+
+    <div class="w-[400px] border rounded-lg  bg-blue-100 border-blue-400 mx-auto mt-4  p-2 hover:shadow-xl  hover:cursor-pointer">
+        <p class="font-semibold">Learn Video editing</p>
+        <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="flex gap-5 text-gray-500 mt-2">
+            <button class="flex items-center gap-2 hover:text-blue-900 text-sm "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+              </svg>Mark as done</button>
+            <button class="flex items-center gap-2 hover:text-red-800 text-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+              </svg> Delete</button>
+
+        </div>
+
+    </div>
+
+    <div class="w-[400px] border rounded-lg  bg-blue-100 border-blue-400 mx-auto mt-4  p-2 hover:shadow-xl  hover:cursor-pointer">
+        <p class="font-semibold">Learn Tailwind CSS</p>
+        <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="flex gap-5 text-gray-500 mt-2">
+            <button class="flex items-center gap-2 hover:text-blue-900 text-sm "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+              </svg>Mark as done</button>
+            <button class="flex items-center gap-2 hover:text-red-800 text-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+              </svg> Delete</button>
+
+        </div>
+
+    </div>
+    <div class="w-[400px] border rounded-lg  bg-blue-100 border-blue-400 mx-auto mt-4  p-2 hover:shadow-xl  hover:cursor-pointer">
+        <p class="font-semibold">Do Cardio</p>
+        <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        <div class="flex gap-5 text-gray-500 mt-2">
+            <button class="flex items-center gap-2 hover:text-blue-900 text-sm "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+              </svg>Mark as done</button>
+            <button class="flex items-center gap-2 hover:text-red-800 text-sm"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+              </svg> Delete</button>
+
+        </div>
+
+    </div>
+
+    <div x-data="{ modalOpen: false }"
+    @keydown.escape.window="modalOpen = false"
+    class="relative z-50 w-auto h-auto">
+    <!-- popup add btn fixed bottom -->
+
+    <button @click="modalOpen=true" class="fixed bottom-8 right-8 bg-black text-white p-3 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+      </svg></button>
+
+    <template x-teleport="body">
+        <div x-show="modalOpen" class="fixed top-0 left-0 z-[99] flex items-center justify-center w-screen h-screen" x-cloak>
+            <div x-show="modalOpen"
+                x-transition:enter="ease-out duration-300"
+                x-transition:enter-start="opacity-0"
+                x-transition:enter-end="opacity-100"
+                x-transition:leave="ease-in duration-300"
+                x-transition:leave-start="opacity-100"
+                x-transition:leave-end="opacity-0"
+                @click="modalOpen=false" class="absolute inset-0 w-full h-full bg-black bg-opacity-40"></div>
+            <div x-show="modalOpen"
+                x-trap.inert.noscroll="modalOpen"
+                x-transition:enter="ease-out duration-300"
+                x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+                x-transition:leave="ease-in duration-200"
+                x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+                x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                class="relative w-full py-5 bg-white px-7 sm:w-[600px] sm:rounded-lg">
+                <div class="flex items-center justify-between pb-2">
+                    <h3 class="text-lg font-semibold"></h3>
+
+                </div>
+                  <!-- adding task stuff -->
+                <div class="relative w-auto mx-auto">
+                    <div class="w-[550px] flex gap-2">
+                        <input class="w-[87%]  border-black rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-600 " type="text" placeholder="Add your tasks..">
+                        <!-- <input class=" w-[13%] border border-black rounded-lg px-3 focus:outline-none focus:ring-4 focus:ring-blue-200 focus:border-blue-600" type="datetime-local" name="" id=""> -->
+                    </div>
+                    <input class=" w-[550px] mt-2 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-600 "type="text" name="" id="" placeholder="Description of your daily task">
+
+                    <div class="flex end gap-2">
+
+                    <button class="bg-black text-white rounded-lg px-4 py-2 mt-2">Add Task</button>
+                    <button @click="modalOpen=false" class="bg-gray-300 text-black rounded-lg px-4 py-2 mt-2" type="clear">Cancel task</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    </div>
+
+
+
+
+
+    <!-- apline js linking -->
+
+    <script src="https://unpkg.com/alpinejs" defer></script>
+
+
+
+
+
+</body>
+</html>
